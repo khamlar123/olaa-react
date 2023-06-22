@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### how to create 
+    npm install node-sass --save-dev
+    
+    -- cnage css to scss  
+        npm install node-sass --save-dev
+    -- install for for http data
+        npm i react-axios
+    -- make routing 
+        npm install react-router-dom
+
+
+"# olaa-react" 
