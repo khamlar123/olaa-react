@@ -1,0 +1,11 @@
+.boy{
+    border: 1px solid red;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    .boy-container{
+        max-width: 1366px;
+        width: 100%;
+        border: 1px solid green;
+    }
+}
