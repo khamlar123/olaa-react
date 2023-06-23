@@ -1,0 +1,36 @@
+.product-wrapper{
+
+    background: white;
+    .content{
+        .title{
+            height: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid gainsboro;
+            padding: 0 1rem;
+            .title-font{
+                display: flex;
+                gap: 0.5rem;
+                align-items: center;
+            }
+        
+            .title-back{
+                display: flex;
+                gap: 0.5rem;
+                align-items: center;  
+                font-size: small;
+                color: #ff4747;
+            }
+        }
+        .product-box{
+            height: 340px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            gap: 0.5rem;
+            padding: 0.5rem 0;
+
+        }
+    }
+}

@@ -1,11 +1,39 @@
-.boy{
-    border: 1px solid red;
-    min-height: calc(100vh - 80px);
-    display: flex;
-    justify-content: center;
-    .boy-container{
-        max-width: 1366px;
-        width: 100%;
-        border: 1px solid green;
+
+.app{
+    .header{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 99;
+    }
+    
+    .boy{
+        min-height: calc(100vh - 80px);
+        display: flex;
+        justify-content: center;
+        background: #f3f3f3;
+        .boy-container{
+            max-width: 1366px;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+    }
+    
+    .gotop{
+       position: fixed;
+      bottom: 50px;
+      right: 20px;
+      border: none;
+      outline: none;
+      padding: 0.5rem;
+      background: #0000008c;
+      cursor: pointer;
+    span{
+        font-size: 30px;
+        color: white;
+        &:hover{
+            color: red;
+        }
+    }
     }
 }
