@@ -2,7 +2,7 @@ const Products = [
     {
         id: 1,
         title: 'Electric Drill ສະຫວ່ານ Cordless Impact 20V Lomvum',
-        imgUrl: 'http://192.168.0.201:90/Files/CordlessImpactElectricDrill20VLomvum_CV_0123423.jpg',
+        imgUrl: 'https://api.olaa.la/Files/CordlessImpactElectricDrill20VLomvum_CV_0123423.jpg',
         price: 764000,
         discount: 978000,
         flagName: 'Super Deals',
@@ -13,7 +13,7 @@ const Products = [
     {
         id: 2,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 7640000,
         discount: 9780000,
         flagName: 'Super Deals',
@@ -24,7 +24,7 @@ const Products = [
     {
         id: 3,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
         discount: 5000000,
         flagName: 'Super Deals',
@@ -35,7 +35,7 @@ const Products = [
     {
         id: 4,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
         discount: 5000000,
         flagName: 'Super Deals',
@@ -46,7 +46,7 @@ const Products = [
     {
         id: 5,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
         discount: 5000000,
         flagName: 'Super Deals',
@@ -57,7 +57,7 @@ const Products = [
     {
         id: 6,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
         discount: 5000000,
         flagName: 'Super Deals',
@@ -68,7 +68,7 @@ const Products = [
     {
         id: 7,
         title: 'Mi Monitor ໜ້າຈໍຄອມ 34 inch Curved Gaming 2K 144Hz Xiaomi',
-        imgUrl: 'http://192.168.0.201:90/Files/MiGamingMonitor_CV_01.jpg',
+        imgUrl: 'https://api.olaa.la/Files/MiGamingMonitor_CV_01.jpg',
         price: 5821000,
         discount: 0,
         flagName: 'Hot',
@@ -79,7 +79,7 @@ const Products = [
     {
         id: 8,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
         discount: 0,
         flagName: 'Hot',
@@ -90,7 +90,7 @@ const Products = [
     {
         id: 9,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
         discount: 0,
         flagName: 'Hot',
@@ -101,7 +101,7 @@ const Products = [
     {
         id: 10,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
         discount: 0,
         flagName: 'Hot',
@@ -112,7 +112,7 @@ const Products = [
     {
         id: 11,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
         discount: 0,
         flagName: 'Hot',
@@ -123,7 +123,7 @@ const Products = [
     {
         id: 12,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
         discount: 0,
         flagName: 'Hot',
@@ -134,7 +134,7 @@ const Products = [
     {
         id: 13,
         title: 'Purely Air Mask ໜ້າກາກ Anti Pollution Xiaomi',
-        imgUrl: 'http://192.168.0.201:90/Files/PurelyAntiPollutionAirMask_CV_0934534.jpg',
+        imgUrl: 'https://api.olaa.la/Files/PurelyAntiPollutionAirMask_CV_0934534.jpg',
         price: 4400000,
         discount: 0,
         flagName: 'New',
@@ -145,7 +145,7 @@ const Products = [
     {
         id: 14,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
         discount: 0,
         flagName: 'New',
@@ -156,7 +156,7 @@ const Products = [
     {
         id: 15,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
         discount: 0,
         flagName: 'New',
@@ -167,7 +167,7 @@ const Products = [
     {
         id: 16,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
         discount: 0,
         flagName: 'New',
@@ -178,7 +178,7 @@ const Products = [
     {
         id: 17,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
         discount: 0,
         flagName: 'New',
@@ -189,7 +189,7 @@ const Products = [
     {
         id: 18,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
         discount: 0,
         flagName: 'New',
@@ -200,7 +200,7 @@ const Products = [
     {
         id: 19,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
         discount: 0,
         flagName: 'New',
@@ -211,7 +211,7 @@ const Products = [
     {
         id: 20,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
         discount: 0,
         flagName: 'New',
@@ -222,7 +222,7 @@ const Products = [
     {
         id: 21,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
         discount: 0,
         flagName: 'New',
@@ -233,7 +233,7 @@ const Products = [
     {
         id: 22,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
         discount: 0,
         flagName: 'New',
@@ -244,7 +244,7 @@ const Products = [
     {
         id: 23,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
         discount: 0,
         flagName: 'New',
@@ -255,7 +255,7 @@ const Products = [
     {
         id: 24,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
-        imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
+        imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
         discount: 0,
         flagName: 'New',
