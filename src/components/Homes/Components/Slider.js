@@ -43,7 +43,7 @@ function Slider() {
 
                 <div className='dot-wrapper'>
                     {sliderList.map((m, index) => (
-                        <div className={index == count ? 'dot-item active': 'dot-item'} onClick={() => updateCount(index)}></div>
+                        <div className={index == count ? 'dot-item active': 'dot-item'} onClick={() => updateCount(index)} key={m.id}></div>
                     ))}
                 </div>
 

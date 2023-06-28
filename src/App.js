@@ -5,6 +5,7 @@ import Home from './components/Homes/Home'
 import Nav from './components/Nav/Nav'
 import Footer from './components/Footer/Footer'
 import { useState, useEffect } from 'react';
+import Submenue from './components/Nav/componenet/Submenue'
 
 function App() {
 
@@ -32,27 +33,29 @@ function App() {
     <>
       <div className='app'>
         <div className='header'>
-              <Nav/>
+              <Nav />
+              {showButton? <Submenue />: <></>  }
+              
           </div>
           <div className='boy'>
             <div className='boy-container'>
               <RouterOutlet>
                   <Routes>
-                    <Route path="/" element={<Home/>}></Route>
+                    <Route path="/" element={<Home />}></Route>
                   </Routes>
               </RouterOutlet>
             </div>
           </div>
           {showButton?      
             <button className='gotop' onClick={handleClick}>
-              <span class="material-symbols-outlined">
+              <span className="material-symbols-outlined">
                 expand_less
               </span>
             </button> : <></>
           }
   
           <div className='footer'>
-              <Footer/>
+              <Footer />
           </div>
       </div>
     </>

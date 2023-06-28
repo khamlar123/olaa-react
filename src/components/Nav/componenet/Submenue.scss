@@ -1,0 +1,76 @@
+.submenue-wrapper{
+    height: 30px;
+    background: #ff4747;
+    display: flex;
+    justify-content: center;
+    .container{
+        max-width: 1366px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        .sub-item{
+            position: relative;        
+            #main{
+                display: flex;
+                align-items: center;
+                color: white;
+                font-size: 14px;
+                margin-left: 5.5rem;
+                cursor: pointer;
+            }
+
+            .hover-menue{
+                position: absolute;
+                top: 27px;
+                width: 1366px;
+                height: 430px;
+                .hover-item{
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0.5rem;
+                    width: 270px;
+                    background: white;
+                    a{
+                        text-decoration: none;
+                        color: #666666;
+                    }
+
+                    .sub-hover{
+                        position: absolute;
+                        left: 270px;
+                        top: 0rem;
+                        height: 420px;
+                        max-width: 1065px;
+                        width: 100%;
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                        color: #666666;
+                        background: white;
+                    
+                        .sub-hover-item{
+                            padding: 1rem;
+                            text-align: start;
+                            line-height: 24px;
+                            p{
+                                color: #666666;
+                                font-size: 13px;
+                            }
+
+                            .img-wrapper{
+                                width: 100px;
+                                height: 100px;
+                                padding: 1rem;
+                                background: gainsboro;
+                                border-radius: 7px;
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

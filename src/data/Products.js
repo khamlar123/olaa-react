@@ -143,7 +143,7 @@ const Products = [
         shipping: "CN"
     },
     {
-        id: 13,
+        id: 14,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
         imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
@@ -154,7 +154,7 @@ const Products = [
         shipping: "CN"
     },
     {
-        id: 13,
+        id: 15,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
         imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
@@ -165,7 +165,7 @@ const Products = [
         shipping: "CN"
     },
     {
-        id: 13,
+        id: 16,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
         imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
@@ -176,7 +176,7 @@ const Products = [
         shipping: "CN"
     },
     {
-        id: 13,
+        id: 17,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
         imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
@@ -187,7 +187,7 @@ const Products = [
         shipping: "CN"
     },
     {
-        id: 13,
+        id: 18,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
         imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
@@ -198,7 +198,7 @@ const Products = [
         shipping: "CN"
     },
     {
-        id: 13,
+        id: 19,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
         imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
@@ -209,7 +209,7 @@ const Products = [
         shipping: "CN"
     },
     {
-        id: 13,
+        id: 20,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
         imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
@@ -220,7 +220,7 @@ const Products = [
         shipping: "CN"
     },
     {
-        id: 13,
+        id: 21,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
         imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
@@ -231,7 +231,7 @@ const Products = [
         shipping: "CN"
     },
     {
-        id: 13,
+        id: 22,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
         imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
@@ -242,7 +242,7 @@ const Products = [
         shipping: "CN"
     },
     {
-        id: 13,
+        id: 23,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
         imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,
@@ -253,7 +253,7 @@ const Products = [
         shipping: "CN"
     },
     {
-        id: 13,
+        id: 24,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
         imgUrl: 'http://192.168.0.201:90/Files/ChampionFoosballtable_CV_03657567.jpg',
         price: 4400000,

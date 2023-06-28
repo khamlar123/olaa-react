@@ -3,6 +3,9 @@ import logo from '../../images/logo olaa.svg'
 import searchIcon  from '../../images/icon-home/Secrch.svg'
 import lgIcon from '../../images/icon-home/usa_flag.svg'
 function Nav() {
+
+
+
     return(
         <>
             <div className="nav-wrapper">
@@ -14,7 +17,7 @@ function Nav() {
                     </div>
                     <dvi className="search">
                         <div className='search-content'>
-                            <input type='text'></input>
+                            <input type='text' />
                             <button>
                                 <img src={searchIcon} alt=""/>
                             </button>
@@ -23,13 +26,13 @@ function Nav() {
 
                     <div className='iocns'>
                         <div className='icon-item'>
-                            <span class="material-symbols-outlined">
+                            <span className="material-symbols-outlined">
                                 person
                             </span>
                             User
                         </div>
                         <div className='icon-item'>
-                            <span class="material-symbols-outlined">
+                            <span className="material-symbols-outlined">
                                 shopping_cart
                             </span>
                             Card
@@ -42,6 +45,8 @@ function Nav() {
                         </div>
                     </div>
                 </div>
+
+    
             </div>
         </>
     )
