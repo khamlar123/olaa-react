@@ -22,6 +22,7 @@
             align-items: center;
             .logo-farm{
                 width: 115px;
+                cursor: pointer;
                 img{
                     width: 100%;
                     height: 100%;
@@ -73,15 +74,75 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+                text-decoration: none;
+                color: white;
+                cursor: pointer;
+                position: relative;
+                
+
+
                 .lg-img{
                     width: 20px;
                     img{
                         width: 100%;
                     }
                 }
+
+                .sub-item{
+                    position: absolute;
+                    width: 110px;
+                    background: white;
+                    padding: 1rem;
+                    top: 3rem;
+                    right: -5px;
+                    border-radius: 6px;
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                    .arrow{
+                        font-size: 30px;
+                        position: absolute;
+                        top: -1rem;
+                        right: 0;
+                        color: white;
+                    }
+
+                    .sub-sub{
+                        color: black;
+                        display: flex;
+                       
+                        &:last-child{
+                            margin-top: 1rem;
+                        }
+                 
+                        img{
+                            margin-right: 10px;
+                        }
+                    }
+                }
+
+                &:hover{
+                    .cart-sub{
+                        display: block;
+                    } 
+                }
+
+                .cart-sub{
+                    position: absolute;
+                    width: 180px;
+                    background: white;
+                    color: black;
+                    padding:  1rem;
+                    top: 3rem;
+                    border-radius: 4px;
+                    display: none;
+                    .arrow{
+                        font-size: 30px;
+                        position: absolute;
+                        top: -1rem;
+                        right: 40%;
+                        color: white;
+                    }
+                }
             }
         }
-
     }
-
 }

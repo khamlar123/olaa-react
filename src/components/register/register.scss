@@ -1,0 +1,176 @@
+.register-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    .register-container{
+        width: 100%;
+        max-width: 450px;
+        padding: 2.5rem 2rem;
+        background: white;
+        border-radius: 3px;
+
+        .title{
+            h4{
+                font-weight: 400;
+            }
+        }
+
+        .input-group{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            input{
+                height: 40px;
+                padding: 0 1rem;
+                outline: none;
+                border: 1px solid gainsboro;
+                margin-top: 1rem;
+                width: 100%;
+            }
+
+            input:optional {
+                border-color: gray;
+              }
+              input:required:valid {
+                border-color: green;
+              }
+              input:invalid {
+                border-color: red;
+              }
+              input:required:focus:valid {
+                background: white 
+              }
+
+
+        }
+
+        .input-item{
+            position: relative;
+            margin-top: 0.5rem;
+            input{
+                height: 40px;
+                padding: 0 1rem;
+                outline: none;
+                border: 1px solid gainsboro;
+                margin-top: 1rem;
+                width: 100%;
+            } 
+
+            input:optional {
+                border-color: gray;
+              }
+              input:required:valid {
+                border-color: green;
+              }
+              input:invalid {
+                border-color: red;
+              }
+              input:required:focus:valid {
+                background: white
+              }
+
+            img{
+                position: absolute;
+                right: 1rem;
+                top: 2rem;
+                cursor: pointer;
+            }
+            
+        }
+
+        .i-agree{
+            font-size: 12px;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+
+            .agree-item{
+                display: flex;
+                align-items: center;
+                .check-box{
+                    width: 15px;
+                    height: 15px;
+                    border: 1px solid gainsboro;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+
+                .checked{
+                    background: #ff4747;
+                    border: 1px solid #ff4747;
+                    &::after {
+                        content: "✓";
+                    }
+
+                }
+
+                P{
+                    margin-left: 0.5rem;
+                    span{
+                        cursor: pointer;
+                        color: #108ff7;
+                        &:hover{
+                            border-bottom: 1px solid #108ff7;
+                        }
+                    }
+                }
+            }
+        }
+
+        .btn{
+            button{
+                height: 45px;
+                width: 100%;
+                background: #108ff7;
+                color: white;
+                outline: none;
+                border: none;
+                font-size: 16px;
+                cursor: pointer;
+            }
+        }
+
+        .connect-with{
+            margin-top: 3rem;
+            color: #9999;
+            font-size: 14px;
+            .coonet{
+                border-bottom: 1px solid gainsboro;
+                position: relative;
+                p{
+                    position: absolute;
+                    padding: 0 15px;
+                    background: white;
+                    left: 33%;
+                    top:-10px;
+                }
+            }
+
+            .footer{
+                margin-top: 2rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+              
+                img{
+                    width: 40px;
+                    margin-bottom: 1rem;
+                    cursor: pointer;
+                    color: #ff4747;
+                }
+
+                a{
+                    color: #ff4747;
+                    cursor: pointer;
+                    text-decoration: none;
+                    &:hover{
+                        border-bottom: 1px solid #ff4747;
+                    }
+                }
+            }
+        }
+    }
+}

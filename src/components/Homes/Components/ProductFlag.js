@@ -25,11 +25,9 @@ function ProductFlag(props) {
                         </div>
                     </div>
                     <div className='product-box'>
-
                         {product.map(item => (
                             <Item key={item.id} item={item}/>
                         ))}
-
                     </div>
                 </div>
             </div>

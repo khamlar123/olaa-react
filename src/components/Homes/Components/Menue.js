@@ -9,7 +9,7 @@ function Menue() {
     useEffect( () => {
             setMenueList(MenueList);
     }, []);
-    
+
     function openSub(parentId) {
         setOpenMwenu(true)
         getSub2(parentId)
@@ -49,7 +49,13 @@ function Menue() {
                             {subMenu.map((m) => (
                                 <div className='sub-item sub-clum' key={m.id}>
                                     <h5>{m.name}</h5>
-                                    {getSub3(m.id).length == 0 && m.icon ? <img src={m.icon} alt={`Image ${m.id}`} />: <></>}
+                                    {getSub3(m.id).length == 0 && m.icon ? 
+                                    
+                                    
+                                    <div className='img-wrapper'>
+                                        <img src={m.icon} alt={`Image ${m.id}`} />
+                                    </div>
+                                    : <></>}
                                     {getSub3(m.id).map((mm) => 
                                         (
                                             <a href='#' className='sub-item' key={mm.id}>{mm.name}</a>

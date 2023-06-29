@@ -1,0 +1,169 @@
+
+
+.login-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    .login-container{
+        width: 100%;
+        max-width: 450px;
+        padding: 2rem;
+        background: white;
+        height: 480px;
+        font-size: 13px;
+        border-radius: 4px;
+        .login-title{
+            display: flex;
+            justify-content: space-between;
+           
+            h2{
+              font-weight: 300;
+            }
+            .icon{
+                span{
+                    font-size: 30px;
+                    color: #ff4747;
+                    font-weight: 300;
+                    cursor: pointer;
+                }
+
+                  .helep{
+                    position: relative;
+                    .Login-with{
+                      position: absolute;
+                      right: 2.5rem;
+                      top: -2rem;
+                      padding: 0.5rem 1rem;
+                      border: 1px solid orange;
+                      background: #ffca2b0c;
+                      color: orange;
+                      width: 150px;
+                    
+                    }
+
+                    .arrow{
+                      position: absolute;
+                      right: 1.4rem;
+                      top: -2rem;
+                      color: orange;
+                    }
+                  }
+            }
+        }
+
+        .input-item{
+           margin-top: 1.5rem;
+            .input {
+                position: relative;
+               
+                &__label {
+                  position: absolute;
+                  left: 0.5rem;
+                  top: 0;
+                  padding: calc(var(--size-bezel) * 0.75) calc(var(--size-bezel) * .5);
+                  margin: calc(var(--size-bezel) * 0.75 + 3px) calc(var(--size-bezel) * .5);
+                  background: pink;
+                  white-space: nowrap;
+                  transform: translate(0, 0);
+                  transform-origin: 0 0;
+                  background: var(--color-background);
+                  transition: transform 120ms ease-in;
+                color: #6666;
+                  line-height: 3;
+                }
+                &__field {
+                  box-sizing: border-box;
+                  display: block;
+                  width: 100%;
+                  border: 1px solid gainsboro;
+                  padding: calc(var(--size-bezel) * 1.5) var(--size-bezel);
+                  color: currentColor;
+                  background: transparent;
+                  border-radius: var(--size-radius);
+                  outline: none;
+                  padding: 0 0.5rem;
+                    height: 40px;
+                 
+                  &:focus,
+                  &:not(:placeholder-shown) {
+                    & + .input__label {
+                      transform: translate(.25rem, -65%) scale(.8);
+                      color: #6666;
+                     
+                    }
+                  }
+                }
+
+                img{
+                  position: absolute;
+                  right: 0.5rem;
+                  top: 1rem;
+                  cursor: pointer;
+                }
+            }
+        }
+
+        .forget{
+          display: flex;
+          justify-content: flex-end;
+          margin-top: 0.5rem;
+          a{
+            text-decoration: none;
+          }
+        }
+
+        .btn{
+          margin-top: 1rem;
+          button{
+            height: 45px;
+            width: 100%;
+            outline: none;
+            border: none;
+            background: #ff4747;
+            color: white;
+            font-size: 16px;
+          }
+        }
+
+        .register-by{
+          margin-top: 2.5rem;
+          border-top: 1px solid #6666;
+          position: relative;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          
+          p{
+            text-align: center;
+            width: 120px;
+            background: white;
+            position: absolute;
+            top: -10px;
+            left: 34%;
+            color: #6666;
+          }
+
+          .footer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+              margin: 1.5rem;
+              width:50px;
+            }
+            label{
+              a{
+                text-decoration: none;
+                color: #ff4747;
+              }
+            }
+          }
+
+  
+        }
+    }
+}
+
+

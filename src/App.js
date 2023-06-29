@@ -1,7 +1,9 @@
 import React from 'react';
-import { BrowserRouter as RouterOutlet, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as RouterOutlet, Route, Routes, Navigate } from 'react-router-dom';
 import './App.scss';
 import Home from './components/Homes/Home'
+import Login from './components/login/login'
+import Register from './components/register/register'
 import Nav from './components/Nav/Nav'
 import Footer from './components/Footer/Footer'
 import { useState, useEffect } from 'react';
@@ -42,6 +44,9 @@ function App() {
               <RouterOutlet>
                   <Routes>
                     <Route path="/" element={<Home />}></Route>
+                    <Route path="/login" element={<Login />}></Route>
+                    <Route path="/register" element={<Register />}></Route>
+                    <Route path="/home" element={<Navigate to="/"/>}></Route>
                   </Routes>
               </RouterOutlet>
             </div>

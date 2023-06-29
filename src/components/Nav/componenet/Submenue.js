@@ -53,16 +53,22 @@ function Submenue() {
                                 {getManinMenu().map(m => (
                                     <div className='hover-item' key={m.id}>
                                         <a href="#" onMouseOver={() => openSub(m.id)}>{m.name}</a>
-                                        {openSubMenue && subMenue.map(mm => (
-                                            <div className='sub-hover' key={mm.id}>
-                                                <div className='sub-hover-item'>
-                                                    <h5>{mm.name}</h5>
-                                                    {getSub3(mm.id).length == 0 && mm.icon ? <img src={mm.icon} alt={`Image ${mm.id}`} />: <></>}
-                                                    {getSub3(mm.id).map(mmm => ( <p key={mmm.id}>{mmm.name}</p> )) 
-                                                    }
-                                                </div>
-                                            </div>
-                                        ))}
+                                            {subMenue.length > 0 && openSubMenue ?
+                                                   <div className='sub-hover'>
+                                                   { subMenue.map(mm => (
+                                                       <div className='sub-hover-item'>
+                                                           <h5>{mm.name}</h5>
+                                                           {getSub3(mm.id).length == 0 && mm.icon ?
+                                                            <div className='img-wrapper'>
+                                                                <img src={mm.icon} alt={`Image ${mm.id}`} />
+                                                            </div>
+                                                            : <></>}
+                                                           {getSub3(mm.id).map(mmm => ( <p key={mmm.id}>{mmm.name}</p> )) 
+                                                           }
+                                                       </div>
+                                                   ))}
+                                               </div>
+                                            :<></>}
                                     </div>
                                 ))}
                             </div>

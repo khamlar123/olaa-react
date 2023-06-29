@@ -15,7 +15,7 @@ const Menues = [
     {id: 14, name: 'eeeeee', icon: '', parentId: 11, url:''},
     {id: 15, name: 'ຈໍພາບxxxx', icon:'../../../images/icon-home/PT-C01D.png', parentId: 1, url:''},
     {id: 16, name: 'uuuuuu', icon: '', parentId: 15, url:''},
-    {id: 17, name: 'jjjjjjjj', icon:'../../../images/icon-home/PT-C01D.png', parentId: 2, url:''},
+    {id: 17, name: 'jjjjjjjj', icon:'https://api.olaa.la/Files/PurelyAntiPollutionAirMask_CV_0934534.jpg', parentId: 2, url:''},
 ];
 
 export default Menues;
