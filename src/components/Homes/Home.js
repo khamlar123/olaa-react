@@ -33,7 +33,6 @@ function Home() {
     function hasClickSeeMore() {
         const num1 = seeMore +1;
         setSeeMore(num1);
-        console.log('seeMore',seeMore);
     }
 
     return(

@@ -1,0 +1,13 @@
+.search-wrapper{
+    .search-container{
+        .search-title{
+            margin: 0.5rem 0;
+        }
+
+        .search-item{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            gap: 0.5rem;
+        }
+    }
+}

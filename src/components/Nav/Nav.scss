@@ -65,7 +65,7 @@
 
         .iocns{
             display: flex;
-            gap: 2rem;
+            gap: 3rem;
             justify-content: end;
             padding-right: 2.3rem;
             font-size: small;
@@ -142,7 +142,72 @@
                         color: white;
                     }
                 }
+
+                .user-sub{
+                    display: none;
+                    position: absolute;
+                    width: 260px;
+                    background: white;
+                    padding: 1rem;
+                    top: 3rem;
+                    left: 0;
+                    border-radius: 6px;
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                    .arrow{
+                        font-size: 30px;
+                        position: absolute;
+                        top: -1rem;
+                        left: 0;
+                        color: white;
+                    }
+
+                    .btn{
+                        button{
+                            cursor: pointer;
+                            width: 100%;
+                            height: 40px;
+                            border: none;
+                            outline: none;
+                            background: #ff4747;
+                            color: white;
+                        }
+
+                        #reg{
+                            background: #368dff;
+                        }
+                    }
+
+                    .connect-with{
+                        color: #9999;
+                        display: flex;
+                        align-items: center;
+                        margin: 1.5rem 0;
+                        
+                        img{
+                            margin-left: 0.5rem;
+                            width: 30px;
+                        }
+                    }
+
+                    
+
+                    .nothave{
+                        color: black;
+                        margin: 1rem 0;
+                    }
+                }
             }
+
+            .user{
+                &:hover{
+                    .user-sub{
+                        display: block;
+                    }
+                }
+            } 
         }
+
+        
+
     }
 }

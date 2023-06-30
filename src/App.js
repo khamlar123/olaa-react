@@ -6,15 +6,20 @@ import Login from './components/login/login'
 import Register from './components/register/register'
 import Nav from './components/Nav/Nav'
 import Footer from './components/Footer/Footer'
+import Search  from './components/Search/Search';
+import BreadCrumb from './components/BreadCrumbs/BreadCrumbs';
+import Category from './components/Catgorys/catgory'
 import { useState, useEffect } from 'react';
 import Submenue from './components/Nav/componenet/Submenue'
 
 function App() {
 
   const [showButton, setShowButton] = useState(false);
+  const currentUrl = window.location.href;
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
+    console.log('url', currentUrl.split("/")[3]);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -36,9 +41,9 @@ function App() {
       <div className='app'>
         <div className='header'>
               <Nav />
-              {showButton? <Submenue />: <></>  }
-              
+              {showButton ? <Submenue />: <></>  }
           </div>
+          {currentUrl.split("/")[3] == 'home' || currentUrl.split("/")[3] == '' ? <></>: <BreadCrumb data={currentUrl} />}
           <div className='boy'>
             <div className='boy-container'>
               <RouterOutlet>
@@ -47,6 +52,8 @@ function App() {
                     <Route path="/login" element={<Login />}></Route>
                     <Route path="/register" element={<Register />}></Route>
                     <Route path="/home" element={<Navigate to="/"/>}></Route>
+                    <Route path="/search/:searchKey" element={<Search />}></Route>
+                    <Route path="/catgory/:id" element={<Category />}></Route>
                   </Routes>
               </RouterOutlet>
             </div>

@@ -9,6 +9,8 @@ const Products = [
         perOrder: false,
         hasInStock: true,
         shipping: "",
+        brandId: 1,
+        catgoryId: 12,
     },
     {
         id: 2,
@@ -19,29 +21,35 @@ const Products = [
         flagName: 'Super Deals',
         perOrder: true,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 2,
+        catgoryId: 12,
     },
     {
         id: 3,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
         imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
-        price: 4400000,
+        price: 864000,
         discount: 5000000,
         flagName: 'Super Deals',
         perOrder: false,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 2,
+        catgoryId: 12,
     },
     {
         id: 4,
         title: 'Champion Foosball Table ໂຕະເຕະບານ',
         imgUrl: 'https://api.olaa.la/Files/ChampionFoosballtable_CV_03657567.jpg',
-        price: 4400000,
+        price: 964000,
         discount: 5000000,
         flagName: 'Super Deals',
         perOrder: false,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 2,
+        catgoryId: 12,
     },
     {
         id: 5,
@@ -52,7 +60,9 @@ const Products = [
         flagName: 'Super Deals',
         perOrder: false,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 2,
+        catgoryId: 17,
     },
     {
         id: 6,
@@ -63,7 +73,9 @@ const Products = [
         flagName: 'Super Deals',
         perOrder: false,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 2,
+        catgoryId: 17,
     },
     {
         id: 7,
@@ -74,7 +86,9 @@ const Products = [
         flagName: 'Hot',
         perOrder: false,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 3,
+        catgoryId: 3,
     },
     {
         id: 8,
@@ -85,7 +99,9 @@ const Products = [
         flagName: 'Hot',
         perOrder: true,
         hasInStock: true,
-        shipping: "TH"
+        shipping: "TH",
+        brandId: 3,
+        catgoryId: 3,
     },
     {
         id: 9,
@@ -96,7 +112,9 @@ const Products = [
         flagName: 'Hot',
         perOrder: true,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 3,
+        catgoryId: 3,
     },
     {
         id: 10,
@@ -107,7 +125,9 @@ const Products = [
         flagName: 'Hot',
         perOrder: false,
         hasInStock: false,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 3,
+        catgoryId: 12,
     },
     {
         id: 11,
@@ -118,7 +138,9 @@ const Products = [
         flagName: 'Hot',
         perOrder: false,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 3,
+        catgoryId: 12,
     },
     {
         id: 12,
@@ -129,7 +151,9 @@ const Products = [
         flagName: 'Hot',
         perOrder: false,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 3,
+        catgoryId: 17,
     },
     {
         id: 13,
@@ -140,7 +164,9 @@ const Products = [
         flagName: 'New',
         perOrder: false,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 1,
+        catgoryId: 17,
     },
     {
         id: 14,
@@ -151,7 +177,9 @@ const Products = [
         flagName: 'New',
         perOrder: false,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 4,
+        catgoryId: 17,
     },
     {
         id: 15,
@@ -162,7 +190,9 @@ const Products = [
         flagName: 'New',
         perOrder: false,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 1,
+        catgoryId: 3,
     },
     {
         id: 16,
@@ -173,7 +203,9 @@ const Products = [
         flagName: 'New',
         perOrder: false,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 1,
+        catgoryId: 17,
     },
     {
         id: 17,
@@ -184,7 +216,9 @@ const Products = [
         flagName: 'New',
         perOrder: false,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 1,
+        catgoryId: 17,
     },
     {
         id: 18,
@@ -195,7 +229,9 @@ const Products = [
         flagName: 'New',
         perOrder: false,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 1,
+        catgoryId: 12,
     },
     {
         id: 19,
@@ -206,7 +242,9 @@ const Products = [
         flagName: 'New',
         perOrder: false,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 1,
+        catgoryId: 12,
     },
     {
         id: 20,
@@ -217,7 +255,9 @@ const Products = [
         flagName: 'New',
         perOrder: false,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 1,
+        catgoryId: 12,
     },
     {
         id: 21,
@@ -228,7 +268,9 @@ const Products = [
         flagName: 'New',
         perOrder: false,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 1,
+        catgoryId: 17,
     },
     {
         id: 22,
@@ -239,7 +281,9 @@ const Products = [
         flagName: 'New',
         perOrder: false,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 1,
+        catgoryId: 17,
     },
     {
         id: 23,
@@ -250,7 +294,9 @@ const Products = [
         flagName: 'New',
         perOrder: false,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 1,
+        catgoryId: 17,
     },
     {
         id: 24,
@@ -261,7 +307,9 @@ const Products = [
         flagName: 'New',
         perOrder: false,
         hasInStock: true,
-        shipping: "CN"
+        shipping: "CN",
+        brandId: 1,
+        catgoryId: 17,
     },
 
 ];

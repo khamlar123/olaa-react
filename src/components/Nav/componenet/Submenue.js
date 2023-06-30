@@ -52,7 +52,7 @@ function Submenue() {
                             <div className='hover-menue' onMouseLeave={closeSub}>
                                 {getManinMenu().map(m => (
                                     <div className='hover-item' key={m.id}>
-                                        <a href="#" onMouseOver={() => openSub(m.id)}>{m.name}</a>
+                                        <a href={`catgory/${m.id}`} onMouseOver={() => openSub(m.id)}>{m.name}</a>
                                             {subMenue.length > 0 && openSubMenue ?
                                                    <div className='sub-hover'>
                                                    { subMenue.map(mm => (
@@ -60,10 +60,10 @@ function Submenue() {
                                                            <h5>{mm.name}</h5>
                                                            {getSub3(mm.id).length == 0 && mm.icon ?
                                                             <div className='img-wrapper'>
-                                                                <img src={mm.icon} alt={`Image ${mm.id}`} />
+                                                                <a href={`catgory/${mm.id}`}><img src={mm.icon} alt={`Image ${mm.id}`} /></a>
                                                             </div>
                                                             : <></>}
-                                                           {getSub3(mm.id).map(mmm => ( <p key={mmm.id}>{mmm.name}</p> )) 
+                                                           {getSub3(mm.id).map(mmm => ( <a href={`catgory/${mmm.id}`} key={mmm.id}>{mmm.name}</a> )) 
                                                            }
                                                        </div>
                                                    ))}

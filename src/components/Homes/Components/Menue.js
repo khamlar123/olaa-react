@@ -1,6 +1,7 @@
 import './Menue.scss';
 import { useEffect, useState} from 'react';
 import MenueList from '../../../data/menue';
+import { Link } from "react-router-dom";
 function Menue() {
     const [openMenue,setOpenMwenu] = useState(false);
     const [menueList,setMenueList] = useState([]);
@@ -37,10 +38,13 @@ function Menue() {
             <div className="menue-wrapper" >
                 <div className='menue-content' onMouseLeave={closeSub} >
                     <div className='main-menue' >
+
                         {getManinMenu().map((item) => (
-                            <a href='#' className='main-item' key={item.id} onMouseOver={() => openSub(item.id)}> 
-                                {item.name}
-                            </a>
+                            <Link to={`catgory/${item.id}`}  disabled={true}>
+                                <a  className='main-item' key={item.id} onMouseOver={() => openSub(item.id)}> 
+                                    {item.name}
+                                </a>
+                            </Link>
                         ))}
                     </div>
 
@@ -50,15 +54,17 @@ function Menue() {
                                 <div className='sub-item sub-clum' key={m.id}>
                                     <h5>{m.name}</h5>
                                     {getSub3(m.id).length == 0 && m.icon ? 
-                                    
-                                    
-                                    <div className='img-wrapper'>
-                                        <img src={m.icon} alt={`Image ${m.id}`} />
-                                    </div>
+                                        <Link  to={`catgory/${m.id}`}>
+                                            <div className='img-wrapper'>
+                                                <img src={m.icon} alt={`Image ${m.id}`} />
+                                            </div>
+                                        </Link>
                                     : <></>}
                                     {getSub3(m.id).map((mm) => 
                                         (
-                                            <a href='#' className='sub-item' key={mm.id}>{mm.name}</a>
+                                            <Link  to={`catgory/${mm.id}`}>
+                                                <a  className='sub-item' key={mm.id}>{mm.name}</a>
+                                            </Link>
                                         ))
                                     }
                                 </div>

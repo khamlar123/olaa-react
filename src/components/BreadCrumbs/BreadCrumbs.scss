@@ -1,0 +1,39 @@
+.crumbs-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .crumbs-container{
+        width: 100%;
+        max-width: 1366px;
+        height: 40px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        background: white;
+        .breadcrumbs {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .breadcrumbs li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .breadcrumbs a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .breadcrumbs a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumbs .active {
+            color: #999;
+            font-weight: normal;
+        }
+    }
+}
