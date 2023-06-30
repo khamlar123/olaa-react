@@ -13,6 +13,7 @@ function Catgory() {
     const [selBrand,setBrandId] = useState(0);
     const [sorting,setSorting] = useState(0);
     const [sortingPreOrder,setSortingPreOrder] = useState(0);
+    const [seeMore,setSeeMore] = useState(1);
 
     useEffect(() => {
         const list = Products.filter(f => f.catgoryId == id);
@@ -90,6 +91,16 @@ function Catgory() {
         return sortedData;
     }
 
+    function hasClickSeeMore() {
+        const num1 = seeMore +1;
+        setSeeMore(num1);
+    }
+
+    function getItems() {
+        let hasSeeMore = productByBrand.slice(0 , 12 * seeMore);
+        return hasSeeMore;
+    }
+
     return (
         <>
            <div className='catgory-wrapper'>
@@ -129,12 +140,22 @@ function Catgory() {
                         
                     </div>
                     <div className='product-wapper'>
-                        {productByBrand.map(m => (
+                        {getItems().map(m => (
                             <Product key={m.id} item={m} />
                         ))}
                     </div>
 
+                     <div className='see-more' >
+                            <button onClick={hasClickSeeMore}>
+                                See More
+                                <span className="material-symbols-outlined">
+                                    expand_more
+                                </span>
+                            </button>
+                        </div> 
                 </div>
+
+   
            </div>
         </>
     )

@@ -1,5 +1,11 @@
 .search-wrapper{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     .search-container{
+        max-width: 1366px;
+        width: 100%;
         .search-title{
             margin: 0.5rem 0;
         }

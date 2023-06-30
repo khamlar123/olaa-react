@@ -37,25 +37,32 @@ function Home() {
 
     return(
         <>
-            <Slider/>
-            <Brand/>
-            <ProductFlag  product={getSuperDeal()} name={'Super Deals'} />
-            <Ads img={Adsimg1} />
-            <ProductFlag product={getHot()} name={'Hot'} />
-            <Ads img={Adsimg2} />
-            <div className='new-product'>
-                { getNew().map(m => (
-                    <Item key={m.id} item={m} />
-                ))}
+            <div className='home-wrapper'>
+                <div className='home-container'>
+                    <Slider/>
+                    <Brand/>
+                    <ProductFlag  product={getSuperDeal()} name={'Super Deals'} />
+                    <Ads img={Adsimg1} />
+                    <ProductFlag product={getHot()} name={'Hot'} />
+                    <Ads img={Adsimg2} />
+                    <div className='new-product'>
+                        { getNew().map(m => (
+                            <Item key={m.id} item={m} />
+                        ))}
+                    </div>
+                    <div className='see-more' >
+                        <button onClick={hasClickSeeMore}>
+                            See More
+                            <span className="material-symbols-outlined">
+                                expand_more
+                            </span>
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div className='see-more' >
-                <button onClick={hasClickSeeMore}>
-                    See More
-                    <span className="material-symbols-outlined">
-                        expand_more
-                    </span>
-                </button>
-            </div>
+      
+
+
         </>
     )
 }

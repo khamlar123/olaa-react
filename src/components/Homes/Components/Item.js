@@ -1,4 +1,5 @@
 import './Item.scss'
+import { Link } from "react-router-dom";
 function Item(props) {
 
     const {item} = props;
@@ -40,6 +41,7 @@ function Item(props) {
 
     return (
         <>
+        <Link to={`/product-detail/${item.id}`}>
             <div className='product-item' key={item.id}>
                 <div className='img-wap'>
                     <img src={item.imgUrl} />
@@ -62,6 +64,8 @@ function Item(props) {
                     </div>
                 </div>
             </div>
+        </Link>
+       
         </>
     )
 }

@@ -1,7 +1,14 @@
 .catgory-wrapper{
- 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
 
     .catgory-container{
+        width: 100%;
+        max-width: 1366px;
+        di
+   
 
         .brand-warpper{
             background: #ededed;

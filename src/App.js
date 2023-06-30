@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer'
 import Search  from './components/Search/Search';
 import BreadCrumb from './components/BreadCrumbs/BreadCrumbs';
 import Category from './components/Catgorys/catgory'
+import ProductDetail from './components/Product-detail/Product-detail'
 import { useState, useEffect } from 'react';
 import Submenue from './components/Nav/componenet/Submenue'
 
@@ -54,6 +55,7 @@ function App() {
                     <Route path="/home" element={<Navigate to="/"/>}></Route>
                     <Route path="/search/:searchKey" element={<Search />}></Route>
                     <Route path="/catgory/:id" element={<Category />}></Route>
+                    <Route path='/product-detail/:id' element={<ProductDetail />}></Route>
                   </Routes>
               </RouterOutlet>
             </div>
